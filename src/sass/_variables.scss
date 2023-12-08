@@ -1,0 +1,44 @@
+
+//Sizes
+$desktop-width: 1440px;
+
+$mobile-width: 375px;
+$mobile-larger: 425px;
+
+$tablet-width: 768px;
+
+
+//Fonts
+$font-roboto: 'Roboto', sans-serif;
+
+//Font Size
+$x-larger: 3rem;
+
+//Radius
+$sm-radius: 4px;
+$radius: 8px;
+$larger-radius: 16px;
+
+//Colors
+$tomato: hsl(4, 100%, 67%);
+$dark-slate-grey: hsl(234, 29%, 20%);
+$charcoal-grey: hsl(235, 18%, 26%);
+$grey: hsl(231, 7%, 60%);
+$white: hsl(0, 0%, 100%);
+
+//Gradients
+$hover-gradient: linear-gradient(to right, hsl(346, 99%, 66%), $tomato);
+
+@mixin button-style {
+    border: none;
+    color: $white;
+    height: 3rem;
+    border-radius: $radius;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: $dark-slate-grey;
+    &:hover {
+        background-image: $hover-gradient;
+    }
+}
+

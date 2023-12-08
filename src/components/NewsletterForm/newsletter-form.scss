@@ -1,0 +1,53 @@
+@import '../../sass/variables';
+
+#newsletter-subscribe-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: -0.5rem
+    }
+
+    .error-message {
+      font-weight: bold;
+      color: $tomato;
+      font-size: small;
+    }
+
+    label {
+      font-weight: bold;
+      color: $dark-slate-grey;
+      font-size: small;
+    }
+
+    input {
+      height: 3rem;
+      outline: none;
+      border: none;
+      border-radius: $radius;
+      padding: 0 1.5rem;
+    }
+
+    .email {  
+      border: 1px solid $grey;
+      .email::placeholder {
+        color: $grey;
+      }
+    }
+
+    .email-error {
+      border: 1px solid $tomato;
+      background-color: hsla(4, 100%, 67%, 0.13);
+      &.email-error::placeholder {
+        color: $tomato;
+      }
+    }
+
+    input[type="submit"] {
+      @include button-style;
+    }
+}

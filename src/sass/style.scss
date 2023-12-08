@@ -1,0 +1,29 @@
+@import './variables';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body { 
+    background-color: $dark-slate-grey;
+    font-family: $font-roboto;  
+
+    @media (max-width: $tablet-width) {
+        background-color: $white;
+    }
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
