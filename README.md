@@ -59,4 +59,4 @@ I owe a huge thanks to everyone who has been a part of this learning experience,
 
 - Github - [JLSoaresRamos](https://github.com/JLSoaresRamos)
 - Frontend Mentor - [@JLSoaresRamos](https://www.frontendmentor.io/profile/JLSoaresRamos)
-- Linkedin - [@yourusername](https://www.linkedin.com/in/jlramossoares/)
+- Linkedin - [@jlramossoares](https://www.linkedin.com/in/jlramossoares/)
