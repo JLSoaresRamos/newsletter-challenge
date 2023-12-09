@@ -4,10 +4,11 @@ import IconList from '../Icons/List';
 import NewsletterForm from '../NewsletterForm';
 
 export default function Box() {
+
   return (
     <>
       <img
-        src="../assets/images/illustration-sign-up-mobile.svg"
+        src="images/illustration-sign-up-mobile.svg"
         alt="A computer screen with a graph and a phone next to it."
         className="mobile-image"
       />
@@ -29,7 +30,7 @@ export default function Box() {
           <NewsletterForm />
         </div>
         <img
-          src="../assets/images/illustration-sign-up-desktop.svg"
+          src="images/illustration-sign-up-desktop.svg"
           alt="A computer screen with a graph and a phone next to it."
           className="desktop-image"
         />
